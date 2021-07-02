@@ -4,6 +4,8 @@ LP_ill = '55001048';
 LP_det = '55001045';
 XY_controller = '73109054';
 
+% an exciting comment!
+
 %create motor objects
 [motor_x, motor_y] = motor_init(XY_controller);
 motor_x.MoveTo(45, 60000);
